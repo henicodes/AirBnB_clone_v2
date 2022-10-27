@@ -10,6 +10,7 @@ import os
 env.hosts = ["3.235.65.247", "34.239.254.75"]
 env.user = "ubuntu"
 
+
 def do_pack():
     """
         return the archive path if archive has generated correctly.
@@ -24,6 +25,7 @@ def do_pack():
         return archived_f_path
     else:
         return None
+
 
 def do_deploy(archive_path):
     """
